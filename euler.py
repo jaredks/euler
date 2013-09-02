@@ -102,7 +102,7 @@ def facs():
     Factorial sequence iterator.
     """
     a, b = 1, 1
-    while True:
+    while 1:
         yield a
         a, b = a*b, b+1
 
